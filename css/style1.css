@@ -1,3 +1,12 @@
+body {
+	background: #FBEDE5;
+	background: linear-gradient(rgba(251, 237, 229,.85),rgba(251, 237, 229,.85)), url(../img/flowers.jpg);
+}
+
+a {
+	color: #C24C52;
+}
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -11,7 +20,7 @@
 	top: 0;
 	left: 0;
 	pointer-events: none;
-	background: #252323 url(../img/loading.svg) no-repeat 50% 75px;
+	background: #FBEDE5 url(../img/loading.svg) no-repeat 50% 75px;
 	background-size: 60px auto;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
@@ -170,14 +179,14 @@
 	padding: 0;
 	cursor: pointer;
 	vertical-align: top;
-	color: #6dfaff;
+	color: #FBEDE5;
 	border: none;
 	background: none;
 }
 
 .action:hover,
 .action:focus {
-	color: #6dfaff;
+	color: #fff;
 	outline: none;
 }
 

@@ -1,3 +1,8 @@
+body {
+	background: #3A4452 url(../img/clouds-bg.png) /*no-repeat*/ repeat;
+	background: linear-gradient(rgba(2, 15, 33,.9),rgba(255, 181, 156,.5)), url(../img/clouds-bg.png);
+}
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -11,7 +16,7 @@
 	top: 0;
 	left: 0;
 	pointer-events: none;
-	background: #252323 url(../img/loading.svg) no-repeat 50% 75px;
+	background: #3A4452 url(../img/loading.svg) no-repeat 50% 75px;
 	background-size: 60px auto;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
@@ -302,14 +307,14 @@
 	padding: 0;
 	cursor: pointer;
 	vertical-align: top;
-	color: #6dfaff;
+	color: #3A4452;
 	border: none;
 	background: none;
 }
 
 .action:hover,
 .action:focus {
-	color: #6dfaff;
+	color: #fff;
 	outline: none;
 }
 

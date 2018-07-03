@@ -34,7 +34,6 @@
 body {
 	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
-	background: #252323;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-y: scroll;
@@ -44,7 +43,7 @@ body {
 
 a {
 	outline: none;
-	color: #6dfaff;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -70,6 +69,7 @@ button:focus {
 
 .codrops-header {
 	padding: 2em 1em 4em;
+	float: left
 	text-align: center;
 }
 
@@ -94,6 +94,8 @@ button:focus {
 /* Top Navigation Style */
 
 .codrops-links {
+	float: left;
+	padding: 30px;
 	position: relative;
 	display: inline-block;
 	text-align: center;
