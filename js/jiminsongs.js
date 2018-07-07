@@ -180,7 +180,7 @@
 		this.current = this.items.indexOf(item);
 
 		// set the src of the original image element (large image)
-		this._setOriginal(item.querySelector('a').getAttribute('href'));
+		this._setOriginal(item.querySelector('a').getAttribute('id'));
 		
 		// callback
 		this.options.onOpenItem(this, item);
